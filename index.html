@@ -8,12 +8,14 @@
         <meta name="description" content="Om-Geving is een webshop met handgemaakte kunst, design en ambacht">
         <meta name="author" content="Kazeko.nl">
 
-        <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Quicksand|Roboto+Condensed" rel="stylesheet">
 
         <link rel="stylesheet" href="css/reset.css">
         <link rel="stylesheet" href="css/style.css">
     	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
-    	<!--[if lt IE 9]>
+
+        <script type="text/javascript" src="script/scripts.js"></script>
+        <!--[if lt IE 9]>
             <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
         <![endif]-->
     </head>
@@ -23,32 +25,33 @@
             <div id="top-bar">
                 <div class="inner">
                     <ul>
-                        <li><a href="#">Makers</a></li>
-                        <li><a href="#">Alle producten</a></li>
-                        <li><a href="#">Blog</a></li>
-                        <li><a href="#"><i class="fa fa-shopping-cart"></i></a></li>
+                        <li><a href="makersoverzicht.html">Makers</a></li>
+                        <li><a href="overzicht.html">Alle producten</a></li>
+                        <li><a href="blogoverzicht.html">Blog</a></li>
+                        <li><a href="winkelwagen.html"><i class="fa fa-shopping-cart"></i></a></li>
                     </ul>
                 </div>
             </div>
 
-            <div id="bottom-bar" class="inner">
-                <logo>
-                    <a href="#"><img src="images/logo.png"></a>
-                </logo>
+            <div id="bottom-bar">
+                <div class="inner">
+                    <logo>
+                        <a href="index.html"><img src="images/logo.png"></a>
+                    </logo>
 
-                <nav>
-                    <ul>
-                        <li><a href="#">Print</a></li>
-                        <li><a href="#">Licht</a></li>
-                        <li><a href="#">Mode</a></li>
-                        <li><a href="#">Koken</a></li>
-                    </ul>
-                </nav>
+                    <nav>
+                        <ul>
+                            <li><a href="#">Print</a></li>
+                            <li><a href="#">Licht</a></li>
+                            <li><a href="#">Mode</a></li>
+                            <li><a href="#">Koken</a></li>
+                        </ul>
+                    </nav>
 
-                <div class="zoekbox">
-                    <input type="text" name="search" placeholder="Zoeken..">
+                    <div class="zoekbox">
+                        <input type="text" name="search" placeholder="Zoeken..">
+                    </div>
                 </div>
-
             </div>
         </header>
 
@@ -57,10 +60,10 @@
             <h1>Cadeaus met een verhaal</h1>
         </div>
 
-        <div id="overzicht" class="inner">
+        <div id="homeoverzicht" class="inner">
             <div id="linkoverzicht">
             <div class="productpreview">
-                <a href="#">
+                <a href="makerpagina.html">
                     <div class="toptext">
                             <h4>maker van de maand</h4>
                     </div>
@@ -78,18 +81,60 @@
             </div>
 
             <div class="productpreview">
-                <a href="#">
+                <a href="makersoverzicht.html">
                     <div class="toptext">
-                        <h4>alle producten</h4>
+                        <h4>alle makers</h4>
                     </div>
                     <img src="images/pin.jpg">
                 </a>
             </div>
-        </div> <!-- End linkoverzicht -->
+
+            </div> <!-- End linkoverzicht -->
+
+            <div id="featuredoverzicht">
+            <div class="productpreview">
+                <a href="singleproduct.html">
+                    <div class="toptext">
+                        <h4>Bestseller</h4>
+                    </div>
+
+                    <img src="images/medaille.png">
+
+                    <div class="producttext">
+                            <p>Chaos hanglamp van olijfesen 70 x 70cm door Michiel van Dijk</p>
+                            <p class="prijs">€150</p>
+                    </div>
+                </a>
+            </div>
+
+            <div class="productpreview">
+                <a href="singleproduct.html">
+                    <div class="toptext">
+                        <h4>Uitgelicht</h4>
+                    </div>
+
+                    <img src="images/mom.png">
+
+                    <div class="producttext">
+                            <p>Chaos hanglamp van olijfesen 70 x 70cm door Michiel van Dijk</p>
+                            <p class="prijs">€150</p>
+                    </div>
+                </a>
+            </div>
+
+            <div class="productpreview">
+                <a href="overzicht.html">
+                    <div class="toptext">
+                            <h4>Alle producten</h4>
+                    </div>
+                    <img src="images/michael.png">
+                </a>
+            </div>
+        </div>
 
             <div id="productoverzicht">
                 <div class="productpreview">
-                    <a href="#">
+                    <a href="singleproduct.html">
                         <div class="toptext">
                             <h4>Nieuw</h4>
                         </div>
@@ -97,29 +142,29 @@
                         <img src="images/lamp.jpg">
 
                     <div class="producttext">
-              		        <h4>Chaos hanglamp van olijfesen 70 x 70cm door Michiel van Dijk</h4>
-                            <h3>€150</h3>
+              		        <p>Chaos hanglamp van olijfesen 70 x 70cm door Michiel van Dijk</p>
+                            <p class="prijs">€150<p>
                         </div>
                     </a>
                 </div>
 
                 <div class="productpreview">
-                    <a href="#">
+                    <a href="singleproduct.html">
                         <div class="toptext">
                             <h4>Nieuw</h4>
                         </div>
 
-                        <img src="images/coaster.png">
+                        <img src="images/banana.png">
 
                         <div class="producttext">
-                  		        <h4>Chaos hanglamp van olijfesen 70 x 70cm door Michiel van Dijk</h4>
-                                <h3>€150</h3>
+                  		        <p>Chaos hanglamp van olijfesen 70 x 70cm door Michiel van Dijk</p>
+                                <p class="prijs">€150</p>
                         </div>
                     </a>
                 </div>
 
                 <div class="productpreview">
-                    <a href="#">
+                    <a href="singleproduct.html">
                         <div class="toptext">
                             <h4>Nieuw</h4>
                         </div>
@@ -127,56 +172,12 @@
                         <img src="images/poster.png">
 
                         <div class="producttext">
-                  		        <h4>Chaos hanglamp van olijfesen 70 x 70cm door Michiel van Dijk</h4>
-                                <h3>€150</h3>
+                  		        <p>Chaos hanglamp van olijfesen 70 x 70cm door Michiel van Dijk</p>
+                                <p class="prijs">€150</p>
                         </div>
                     </a>
                 </div>
 
-                <div class="productpreview">
-                    <a href="#">
-                        <div class="toptext">
-                            <h4>Nieuw</h4>
-                        </div>
-
-                        <img src="images/mom.png">
-
-                        <div class="producttext">
-              		            <h4>Chaos hanglamp van olijfesen 70 x 70cm door Michiel van Dijk</h4>
-                                <h3>€150</h3>
-                        </div>
-                    </a>
-                </div>
-
-                <div class="productpreview">
-                    <a href="#">
-                        <div class="toptext">
-                            <h4>Bestseller</h4>
-                        </div>
-
-                        <img src="images/medaille.png">
-
-                        <div class="producttext">
-              		         <h4>Chaos hanglamp van olijfesen 70 x 70cm door Michiel van Dijk</h4>
-                             <h3>€150</h3>
-                        </div>
-                    </a>
-                </div>
-
-                <div class="productpreview">
-                    <a href="#">
-                        <div class="toptext">
-                            <h4>Nieuw</h4>
-                        </div>
-
-                        <img src="images/banana.png">
-
-                         <div class="producttext">
-              		             <h4>Chaos hanglamp van olijfesen 70 x 70cm door Michiel van Dijk</h4>
-                                 <h3>€150</h3>
-                        </div>
-                    </a>
-                </div>
         </div><!-- End Productoverzicht -->
         </div> <!-- End overzicht -->
 
@@ -187,7 +188,7 @@
                     <p>Om-Geving</p>
                     <p>Straatnaam</p>
                     <p>0000AA Utrecht</p>
-                    <p><a href="#">info@om-geving.nl<a/><p/>
+                    <p><a href="#">info@om-geving.nl</a><p/>
                 </div>
 
                 <div id="footer2" class="footerwidget">
